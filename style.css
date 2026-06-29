@@ -1,0 +1,445 @@
+/* *{
+    margin: 0 ;
+    padding: 0 ;
+    box-sizing: border-box;
+} */
+.tous {
+    background-color: rgb(245, 245, 245);
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+    width: 98%;
+}
+
+.presentation {
+    display: flex;
+    flex-direction: row;
+}
+
+.profil {
+    background-color: rgb(1, 28, 41);
+    color: white;
+    font-family: 'Times New Roman', Times, serif;
+    justify-content: center;
+    width: 25%;
+    padding: 25px;
+    padding-bottom: -25px;
+    border-radius: 5px 0 0 0;
+}
+
+.profile img {
+    width: 200px;
+    height: 200px;
+    border-radius: 50%;
+    border: 4px solid white;
+    object-fit: cover;
+    display: block;
+    margin: 20px auto;
+}
+
+.infos {
+    padding-left: 15px;
+}
+
+
+.infos p {
+    height: 10px;
+}
+
+.info {
+    border: none;
+    background-color: #ffffff50;
+    height: 0.1px;
+}
+
+.presenter {
+    background-color: aliceblue;
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    width: 85%;
+    padding: 30px;
+    border-radius: 0 5px 0 0;
+}
+
+.presenter h1 {
+    color: black;
+}
+
+.presenter h3 {
+    color: rgb(53, 14, 126);
+}
+
+.presenter p {
+    padding: 20px;
+    line-height: 2rem;
+}
+
+.lignes {
+    border: none;
+    background-color: rgb(53, 14, 126);
+    width: 100px;
+    height: 3px;
+    margin: 15px 0;
+}
+
+.me {
+    background-color: #fff;
+    border-color: blueviolet;
+    color: rgb(53, 14, 126);
+    width: 25%;
+    height: 35px;
+    border-radius: 4px;
+    font-size: 15px;
+    margin-left: 2rem;
+    cursor: pointer;
+}
+/* .me a{
+    text-decoration: none;
+} */
+.CV  {
+    color: #fff;
+    border: none;
+    background-color: rgb(53, 14, 126);
+    width: 25%;
+    height: 35px;
+    font-size: 15px;
+    border-radius: 4px;
+    margin-left: 1.2rem;
+    cursor: pointer;   
+}
+/* .CV a{
+    color: #fff;
+    text-decoration: none;
+} */
+.compétences {
+    margin-left: 30px;
+}
+
+.lignes1 {
+    border: none;
+    background-color: rgb(53, 14, 126);
+    width: 100px;
+    height: 3px;
+    margin-top: -1.5rem;
+    margin-left: 3.5rem;
+}
+
+.compétences h2 {
+    font-size: 28px;
+    margin-bottom: 20px;
+
+}
+.compétence {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    background-color: aliceblue;
+    padding: 18px;
+    border-radius: 15px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+    width: 96%;
+}
+
+.content {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.centres {
+    display: flex;
+    margin-top: 30px;
+    gap: 15px;
+    margin-left: 30px;
+}
+
+.centres h2 {}
+
+.centres .moi .propos {
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+    padding: 18px;
+    height: 120px;
+}
+.centres .moi .propos p {}
+
+.ligne {
+    border: none;
+    background-color: rgba(53, 14, 126, 0.507);
+    width: 100px;
+    height: 3px;
+    margin-top: -1.5rem;
+    margin-left: 3.5rem;
+}
+
+.centres .top .centre {
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+    padding: 18px;
+    width: 140%;
+}
+.centre p {}
+
+.reseaux {
+    margin-left: 30px;
+
+}
+.socials {
+    display: flex;
+    background-color: aliceblue;
+    border-radius: 10px;
+    box-shadow: 0 2px 8px rgb(0, 0, 0, 0.1);
+    padding: 18px;
+    justify-content: space-around;
+    align-items: center;
+    width: 96%;
+}
+
+.social {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+
+}
+
+footer {
+    margin-top: 30px;
+    background-color: rgb(1, 28, 41);
+    color: #fff;
+    text-align: center;
+    padding: 15px;
+    border-radius: 0 0 5px 5px;
+}
+/* .all{
+    display:inline-flex;
+    gap: 10px;
+    font-size: 0.6rem;
+    font-weight: 500;
+    align-items: center;
+    padding: 10px 12px;
+} */
+
+
+@media screen and (max-width: 345px) {
+
+    /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
+    .tous {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .presentation {
+        display: flex;
+        flex-direction: column;
+    }
+
+    .profil {
+        justify-content: center;
+        width: 95%;
+        height: auto;
+        padding: 8px;
+    }
+
+    h1,
+    h3 {
+        font-size: 18px;
+    }
+
+    .presenter {
+        width: 95%;
+        padding: 8px;
+    }
+
+    .me {
+        width: 25%;
+        height: auto;
+        font-size: 8px;
+
+    }
+
+    .CV {
+        width: 25%;
+        height: auto;
+        font-size: 8px;
+    }
+
+    .compétences {
+        margin-left: 3px;
+    }
+
+    .compétences h2 {
+        font-size: 18px;
+        margin-bottom: 20px;
+
+    }
+
+    .compétence {
+        display: flex;
+        flex-wrap: wrap;
+        width: 85%;
+    }
+
+    .centres {
+        display: flex;
+        flex-direction: column;
+
+    }
+
+    .centres .Moi h2 {
+        font-size: 18px;
+    }
+
+    .centres .centre-top h2 {
+        font-size: 18px;
+    }
+
+    .centres .moi .propos {
+        padding: 8px;
+        height: auto;
+        margin-left: -5px;
+        width: 90%;
+
+
+    }
+
+    .centres .top .centre {
+        padding: 8px;
+        height: auto;
+        width: 90%;
+
+    }
+
+    .reseaux h2 {
+        font-size: 18px;
+    }
+
+    .socials {
+        display: flex;
+        flex-wrap: wrap;
+        width: 70%;
+    }
+
+    .social {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+
+
+}
+@media screen and (min-width: 346px) and (max-width: 800px) {
+
+    /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
+    .tous {
+        border-radius: 10px;
+        width: 100%;
+    }
+
+    .presentation {
+        display: flex;
+        flex-direction: row;
+    }
+
+    .profil {
+        justify-content: center;
+        width: 95%;
+        height: auto;
+        padding: 8px;
+    }
+
+    h1 {
+        font-size: 25px;
+    }
+
+    .presenter {
+        width: 95%;
+        padding: 12px;
+    }
+
+    .me {
+        width: 25%;
+        height: auto;
+        font-size: 10px;
+    }
+
+    .CV {
+        width: 25%;
+        height: auto;
+        font-size: 10px;
+        margin-left: 2.5rem;
+
+
+    }
+
+    .compétences {
+        margin-left: 3px;
+    }
+
+    .compétences h2 {
+        font-size: 25px;
+        margin-bottom: 20px;
+    }
+
+    .compétence {
+        display: flex;
+        width: 90%;
+    }
+
+    .centres {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        margin: 0%;
+        padding: 40px;
+
+    }
+
+    .centres .moi {
+        width: 60%;
+    }
+
+    .centres .top {
+        width: 60%;
+    }
+
+    .centres .Moi h2 {
+        font-size: 25px;
+    }
+
+    .centres .centre-top h2 {
+        font-size: 25px;
+    }
+
+
+    .centres .moi .propos {
+        padding: 10px;
+        height: auto;
+        width: 83%;
+    }
+
+    .centres .top .centre {
+        padding: 10px;
+        height: auto;
+        width: 83%;
+    }
+
+    .reseaux h2 {
+        font-size: 25px;
+    }
+
+    .socials {
+        display: flex;
+        width: 70%;
+    }
+
+    .social {
+        display: flex;
+        align-items: center;
+        gap: 10px;
+
+    }
+
+
+}
