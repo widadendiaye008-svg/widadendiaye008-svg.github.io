@@ -220,7 +220,7 @@ footer {
 } */
 
 
-@media screen and (max-width: 400px) {
+@media screen and (max-width: 345px) {
 
     /* Insérez vos propriétés CSS ici, avec vos sélecteurs*/
     .tous {
@@ -253,14 +253,14 @@ footer {
     .me {
         width: 25%;
         height: auto;
-        font-size: 8px;
+        font-size: 10px;
 
     }
 
     .CV {
         width: 25%;
         height: auto;
-        font-size: 8px;
+        font-size: 10px;
     }
 
     .compétences {
@@ -275,7 +275,7 @@ footer {
 
     .compétence {
         display: flex;
-        flex-wrap: wrap;
+        flex-wrap: nowrap;
         width: 85%;
     }
 
