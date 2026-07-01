@@ -249,16 +249,19 @@ footer {
         width: 95%;
         padding: 8px;
     }
+    .button{
+        display: flex;
+    }
 
     .me {
-        width: 25%;
+        width: 40%;
         height: auto;
         font-size: 10px;
 
     }
 
     .CV {
-        width: 25%;
+        width: 45%;
         height: auto;
         font-size: 10px;
     }
@@ -276,6 +279,7 @@ footer {
     .compétence {
         display: flex;
         flex-wrap: wrap;
+        justify-content: space-between;
         width: 85%;
     }
 
