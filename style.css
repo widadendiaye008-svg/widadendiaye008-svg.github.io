@@ -275,7 +275,7 @@ footer {
 
     .compétence {
         display: flex;
-        flex-wrap: nowrap;
+        flex-wrap: wrap;
         width: 85%;
     }
 
